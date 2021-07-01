@@ -10,27 +10,36 @@
 
 @font-face {
   font-style: normal;
-  font-weight: 700;
-  font-family: "Roboto";
+  font-weight: 400;
+  font-family: "Days One";
 
   font-display: swap;
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  src: url("../fonts/DaysOne-Regular.woff2") format("woff2"), url("../fonts/DaysOne-Regular.woff") format("woff");
 }
 
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "PT Sans";
+  font-family: "Klaxons";
 
   font-display: swap;
-  src: url("../fonts/PTSans-Regular.woff2") format("woff2"), url("../fonts/PTSans-Regular.woff") format("woff");
+  src: url("../fonts/Klaxons.woff2") format("woff2"), url("../fonts/Klaxons.woff") format("woff");
 }
 
 @font-face {
   font-style: normal;
-  font-weight: 700;
-  font-family: "PT Sans";
+  font-weight: 400;
+  font-family: "Montserrat";
 
   font-display: swap;
-  src: url("../fonts/PTSans-Bold.woff2") format("woff2"), url("../fonts/PTSans-Bold.woff") format("woff");
+  src: url("../fonts/Montserrat-Regular") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Sansation";
+
+  font-display: swap;
+  src: url("../fonts/Sansation-regular") format("woff2"), url("../fonts/Sansation-regular.woff") format("woff");
 }
