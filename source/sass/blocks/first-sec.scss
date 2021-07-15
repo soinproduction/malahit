@@ -1,6 +1,6 @@
 .first-sec {
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 
   &::before {
     width: 300px;
@@ -18,13 +18,13 @@
 .first-box {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 67px;
+  margin-bottom: 50px;
 }
 
 .first-box__inner {
   width: 100%;
   max-width: 690px;
-  padding-top: 40px;
+  padding-top: 55px;
 }
 
 .first-box__image {
@@ -58,9 +58,9 @@
   line-height: 27px;
   color: #DDDCDB;
 
-  &:not(:first-child) {
+  &--second {
     margin-top: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 66px;
   }
 }
 

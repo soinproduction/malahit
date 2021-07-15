@@ -9,7 +9,6 @@ body {
   color: #fff;
 
   background-color: #000;
-  overflow-x: hidden;
 }
 
 html {
@@ -66,6 +65,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  display: flex;
 }
 
 input {
@@ -97,8 +97,12 @@ input {
   padding: 0 10px;
 }
 
-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// section {
+//   height: 100vh;
+// }
+
+// picture {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }

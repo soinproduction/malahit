@@ -7,10 +7,10 @@
   <meta name="description" content='Malahit'>
   <title>Malahit</title>
   <script src="js/picturefill.min.js" async="async"></script>
-  <!-- <link rel="preload" href="fonts/PTSans-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/PTSans-Regular.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/PTSans-Bold.woff2" as="font" crossorigin="anonymous">
   <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" crossorigin="anonymous"> -->
+  <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -68,7 +68,7 @@
             <p class="first-box__text">
               MALACHITE FACTORY - провідна компанія дизайнер-виробник неонового декору та рекламних вивісок. Ми спеціалізуємося на виготовленні світлодіодних лед неонових предметів інтер’єру, а саме: текстів, логотипів та малюнків на замовлення.
             </p>
-            <p class="first-box__text">
+            <p class="first-box__text first-box__text--second">
               Замовляйте у нас свою фантазію, яку ми перетворимо у найякіснішу реальність!
             </p>
 
@@ -99,11 +99,126 @@
       </div>
     </section>
 
+    <section class="second-sec">
+      <div class="container">
+        <div class="second-box">
+          <div class="second-box__image animate-box">
+            <picture>
+              <source type='image/webp' srcset='img/img2.webp'>
+              <img class='animate-box__image' width='500' height='625' src='img/img2.png' alt='picture'>
+            </picture>
+            <div class="animate-box__wrapp">
+              <picture>
+                <source type='image/webp' srcset='img/round.webp'>
+                <img class='animate-box__round' width='300' height='300' src='img/round.png' alt='NEON'>
+              </picture>
+            </div>
+          </div>
+
+          <div class="second-box__item">
+            <div class="second-box__descr">
+              <h2 class="second-box__title">
+                Ідея та дизайн
+              </h2>
+
+              <p class="second-box__text">
+                Прийшла в голову дивна ідея? <br>
+                Не проблема! Ми все втілимо в життя.
+              </p>
+
+              <ul class="second-box__list second-list">
+                <li class="second-list__item">
+                  Залишайте заявку в якій укажіть:
+                </li>
+                <li class="second-list__item second-list__item--round">
+                  Своє ім’я
+                </li>
+                <li class="second-list__item second-list__item--round">
+                  Особистий номер телефону
+                </li>
+                <li class="second-list__item second-list__item--round">
+                  Короткий опис замовлення
+                </li>
+                <li class="second-list__item">
+                  (текст/малюнок, розмір, приклад
+                  шрифту, місце розташування)
+                </li>
+
+                <li class="second-list__item second-list__descr">
+                  *попередньо Ви можете вирахувати приблизну вартість
+                  замовлення
+                </li>
+              </ul>
+
+              <button class="calc-btn">
+                Розрахувати вартіcть
+              </button>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="third-sec">
+      <div class="container">
+        <h2 class="third-sec__title">
+          portfolio
+        </h2>
+
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="slide-box__img">
+                  <picture>
+                    <source type='image/webp' srcset='img/slide.webp'>
+                    <img width='376' height='470' src='img/slide.png' alt='Слайд'>
+                  </picture>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="slide-box__img">
+                  <picture>
+                    <source type='image/webp' srcset='img/slide2.webp'>
+                    <img width='376' height='470' src='img/slide2.png' alt='Слайд'>
+                  </picture>
+                </div>
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="slide-box__img">
+                  <picture>
+                    <source type='image/webp' srcset='img/slide.webp'>
+                    <img width='376' height='470' src='img/slide.png' alt='Слайд'>
+                  </picture>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+      </div>
+    </section>
+
 
   </main>
 
 
-
+  <script srс='js/aos.js'></script>
+  <script srс='js/swiper.js'></script>
+  <script srс='js/common.min.js'></script>
 </body>
 
 </html>
